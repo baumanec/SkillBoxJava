@@ -6,12 +6,22 @@ public class Loader
         Cat kesha = new Cat();
         System.out.println("Kesha weigh: " + kesha.getWeight());
 
-        kesha.feed(116.0);
+        kesha.feed(150.0);
+        System.out.println("Kesha weigh: " + kesha.getWeight());
+        System.out.println(kesha.getTotalAmount());
+        kesha.feed(100.0);
+        System.out.println("Kesha weigh: " + kesha.getWeight());
+        System.out.println(kesha.getTotalAmount());
+        kesha.pee();
+        System.out.println("Kesha weigh: " + kesha.getWeight());
+        kesha.pee();
+        System.out.println("Kesha weigh: " + kesha.getWeight());
+        kesha.pee();
         System.out.println("Kesha weigh: " + kesha.getWeight());
 
         System.out.println();
 
-        Cat ryzhik = new Cat();
+      /*  Cat ryzhik = new Cat();
         System.out.println("Ryzhik weigh: " + ryzhik.getWeight());
 
         ryzhik.feed(72.0);
@@ -48,6 +58,6 @@ public class Loader
 
         Cat business = new Cat();
         System.out.println("Business weigh: " + business.getWeight());
-
+       */
     }
 }
