@@ -21,7 +21,7 @@ public class Loader
 
         System.out.println();
 
-      /*  Cat ryzhik = new Cat();
+        Cat ryzhik = new Cat();
         System.out.println("Ryzhik weigh: " + ryzhik.getWeight());
 
         ryzhik.feed(72.0);
@@ -32,7 +32,7 @@ public class Loader
         Cat kesya = new Cat();
         System.out.println("Kesya weigh: " + kesya.getWeight());
 
-        while (kesya.getStatus() != "Dead")
+        while (kesya.getWeight() > kesya.minWeight)
         {
             kesya.meow();
             System.out.println("Kesya weigh: " + kesya.getWeight());
@@ -44,7 +44,7 @@ public class Loader
         Cat marti = new Cat();
         System.out.println("Marti weigh: " + marti.getWeight());
 
-        while (marti.getStatus() != "Exploded")
+        while (marti.getWeight() < marti.maxWeight)
         {
             marti.feed(1.0);
             System.out.println("Marti weigh: " + marti.getWeight());
@@ -58,6 +58,14 @@ public class Loader
 
         Cat business = new Cat();
         System.out.println("Business weigh: " + business.getWeight());
-       */
+        System.out.println(Cat.getCount());
+
+        System.out.println();
+
+        kesya.meow();
+
+        System.out.println();
+
+        marti.drink(1.0);
     }
 }
