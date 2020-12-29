@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Cat
 {
@@ -6,7 +7,7 @@ public class Cat
     public static final double MAX_WEIGHT = 9000.0;
 
     private double originWeight;
-    private double weight;
+    public double weight;
 
     public double minWeight;
     public double maxWeight;
@@ -24,6 +25,12 @@ public class Cat
         totalAmount = 0;
         count = ++count;
         this.count = count;
+    }
+
+    public Cat (double weight)
+    {
+        this();
+        this.weight = weight;
     }
 
     public static int getCount()
