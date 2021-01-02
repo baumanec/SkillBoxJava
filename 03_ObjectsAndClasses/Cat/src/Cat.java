@@ -7,7 +7,7 @@ public class Cat
     public static final double MAX_WEIGHT = 9000.0;
 
     private double originWeight;
-    public double weight;
+    private double weight;
 
     public double minWeight;
     public double maxWeight;
@@ -15,6 +15,7 @@ public class Cat
     private double totalAmount;
     public static int count;
     public static int dead;
+    private String color;
 
     public Cat()
     {
@@ -25,6 +26,16 @@ public class Cat
         totalAmount = 0;
         count = ++count;
         this.count = count;
+    }
+
+    public void setColor(String color)
+    {
+        this.color = color;
+    }
+
+    public String getColor()
+    {
+        return color;
     }
 
     public Cat (double weight)
