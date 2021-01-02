@@ -1,18 +1,12 @@
 import java.sql.SQLOutput;
 
-public class Loader
-{
+public class Loader {
     public static void main(String[] args)
     {
-        Cat kesha = new Cat(2100.0);
-        System.out.println(kesha.getWeight());
-        System.out.println(getKitten().getWeight());
-        System.out.println(getKitten().getWeight());
-        System.out.println(getKitten().getWeight());
-    }
-
-    private static Cat getKitten()
-    {
-        return new Cat(1100.0);
+        Color color = Color.BLACK_COLOR;
+        Cat kesha = new Cat(2100.0, "Кеша", color.name());
+        Cat martin = new Cat(kesha.getWeight(), kesha.getName(), kesha.getColor());
+        System.out.println(kesha.getWeight() + "     " + kesha.getName() + "     " + kesha.getColor());
+        System.out.println(martin.getWeight() + "     " + martin.getName() + "     " + martin.getColor());
     }
 }

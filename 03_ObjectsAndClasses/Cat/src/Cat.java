@@ -16,6 +16,7 @@ public class Cat
     public static int count;
     public static int dead;
     private String color;
+    private String name;
 
     public Cat()
     {
@@ -28,6 +29,26 @@ public class Cat
         this.count = count;
     }
 
+
+    public Cat(double weight, String name, String color)
+    {
+        this();
+        setWeight(weight);
+        setName(name);
+        setColor(color);
+
+    }
+
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+
+    public String getName()
+    {
+        return name;
+    }
+
     public void setColor(String color)
     {
         this.color = color;
@@ -38,9 +59,8 @@ public class Cat
         return color;
     }
 
-    public Cat (double weight)
+    public void setWeight (double weight)
     {
-        this();
         this.weight = weight;
     }
 
