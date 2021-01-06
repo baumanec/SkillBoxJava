@@ -15,8 +15,9 @@ public class Cat
     private double totalAmount;
     public static int count;
     public static int dead;
-    private String color;
     private String name;
+    boolean isAlive;
+    Color color;
 
     public Cat()
     {
@@ -30,13 +31,12 @@ public class Cat
     }
 
 
-    public Cat(double weight, String name, String color)
+    public Cat(double weight, String name)
     {
         this();
         setWeight(weight);
         setName(name);
-        setColor(color);
-
+        isAlive = true;
     }
 
     public void setName(String name)
@@ -49,12 +49,12 @@ public class Cat
         return name;
     }
 
-    public void setColor(String color)
+    public void setColor(Color color)
     {
         this.color = color;
     }
 
-    public String getColor()
+    public Color getColor()
     {
         return color;
     }
@@ -81,13 +81,26 @@ public class Cat
         weight = weight - 1;
     }
 
+    public boolean isWeightNormal()
+    {
+        return (weight> MIN_WEIGHT && weight <MAX_WEIGHT);
+    }
+
     public void feed(Double amount)
     {
-        if((weight < minWeight) || (weight > maxWeight)) {
+        if(isAlive) {
+            weight = weight + amount;
+            this.amount = amount;
+        } else {
+            count--;
+            ++dead;
             System.out.println("The cat cannot eat because it is dead");
         }
-        weight = weight + amount;
-        this.amount = amount;
+        if (isWeightNormal()){
+            isAlive = true;
+        } else{
+            isAlive = false;
+        }
     }
 
     public void drink(Double amount)
@@ -123,13 +136,9 @@ public class Cat
     public String getStatus()
     {
         if(weight < minWeight) {
-            count = count - 1;
-            dead = ++dead;
             return "Dead";
         }
         else if(weight > maxWeight) {
-            count = count - 1;
-            dead = ++dead;
             return "Exploded";
         }
         else if(weight > originWeight) {
