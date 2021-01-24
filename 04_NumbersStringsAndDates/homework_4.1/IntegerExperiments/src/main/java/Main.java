@@ -21,16 +21,13 @@ public class Main {
 
   public static int sumDigits(Integer number) {
     int sum = 0;
-    if (number != null){
-      for(int i = 0; i < number.toString().length(); i++)
-      {
-        sum += number.parseInt(String.valueOf(number.toString().charAt(i)));
+    if (number != null) {
+      for (int i = 0; i < number.toString().length(); i++) {
+        sum += Character.getNumericValue(number.toString().charAt(i));
       }
       return sum;
-    } else{
+    } else {
       return -1;
     }
-
-
   }
 }
