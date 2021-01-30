@@ -14,10 +14,10 @@ public class Main
     System.out.println("Min value of long: " + Long.MIN_VALUE);
     System.out.println("Max value of long: " + Long.MAX_VALUE);
 
-    System.out.println("Min value of float: " + -Float.MIN_VALUE);
+    System.out.println("Min value of float: " + -Float.MAX_VALUE);
     System.out.println("Max value of float: " + Float.MAX_VALUE);
 
-    System.out.println("Min value of double: " + -Double.MIN_VALUE);
+    System.out.println("Min value of double: " + -Double.MAX_VALUE);
     System.out.println("Max value of double: " + Double.MAX_VALUE);
   }
 }
