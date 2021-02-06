@@ -6,6 +6,7 @@ public class Main {
     String firstName = "";
     String lastName = "";
     String patronymic = "";
+    int spaceCount = 0;
 
     Scanner scanner = new Scanner(System.in);
     outerloop:
@@ -19,30 +20,31 @@ public class Main {
           System.out.println("Введенная строка не является ФИО");
           break outerloop;
         }
+        if (input.charAt(i) == ' ') {
+          if (lastName.isEmpty()) {
+            lastName = input.substring(0, i);
+          } else {
+            firstName = input.substring(0, i);
+          }
+          input = input.substring(i + 1);
+          i = 0;
+          spaceCount++;
+          if (spaceCount > 2) {
+            System.out.println("Введенная строка не является ФИО");
+            break outerloop;
+          }
+        } else if (spaceCount == 2) {
+          patronymic = input;
+        }
       }
-      if (input.indexOf(' ') == -1) {
+      if (spaceCount == 0) {
         System.out.println("Введенная строка не является ФИО");
         break;
       } else {
-        lastName = input.substring(0, input.indexOf(' '));
-        input = input.substring(input.indexOf(' ') + 1);
+        System.out.println(
+            "Фамилия: " + lastName.trim() + "\nИмя: " + firstName.trim() + "\nОтчество: "
+                + patronymic.trim());
       }
-      if (input.indexOf(' ') == -1) {
-        System.out.println("Введенная строка не является ФИО");
-        break;
-      } else {
-        firstName = input.substring(0, input.indexOf(' '));
-        input = input.substring(input.indexOf(' ') + 1);
-      }
-      if (input.indexOf(' ') == -1) {
-        patronymic = input;
-      } else {
-        System.out.println("Введенная строка не является ФИО");
-        break;
-      }
-      System.out.println(
-          "Фамилия: " + lastName.trim() + "\nИмя: " + firstName.trim() + "\nОтчество: "
-              + patronymic.trim());
     }
   }
 }
