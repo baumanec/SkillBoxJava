@@ -10,7 +10,20 @@ public class Main {
       if (input.equals("0")) {
         break;
       }
-      //TODO:напишите ваш код тут, результат вывести в консоль.
+      input = input.replaceAll("[^0-9]", "");
+      if (input.length() == 11) {
+        if (input.charAt(0) == '7') {
+          System.out.println(input);
+        } else if (input.charAt(0) == '8') {
+          System.out.println(input.replaceFirst("8", "7"));
+        } else {
+          System.out.println("Неверный формат номера");
+        }
+      } else if ((input.length() == 10) && (input.charAt(0) == '9')) {
+        System.out.println("7" + input);
+      } else if ((input.length() > 11) | (input.length() < 10)) {
+        System.out.println("Неверный формат номера");
+      }
     }
   }
 
