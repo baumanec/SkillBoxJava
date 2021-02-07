@@ -3,15 +3,15 @@ import java.util.Scanner;
 public class Main {
 
   public static void main(String[] args) {
-    String firstName = "";
-    String lastName = "";
-    String patronymic = "";
-    int spaceCount = 0;
 
     Scanner scanner = new Scanner(System.in);
     outerloop:
     while (true) {
       String input = scanner.nextLine();
+      String firstName = "";
+      String lastName = "";
+      String patronymic = "";
+      int spaceCount = 0;
       if (input.equals("0")) {
         break;
       }
