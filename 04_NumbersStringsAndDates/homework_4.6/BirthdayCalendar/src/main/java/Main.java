@@ -1,6 +1,5 @@
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.GregorianCalendar;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
 public class Main {
@@ -16,26 +15,22 @@ public class Main {
   }
 
   public static String collectBirthdays(int year, int month, int day) {
-
-    Calendar calendar = new GregorianCalendar(year, month - 1, day);
-    Calendar currentCalendar = Calendar.getInstance();
+    int i = 0;
+    LocalDate birthday = LocalDate.of(year, month, day);
+    LocalDate currentDay = LocalDate.now();
     StringBuilder builder = new StringBuilder();
-    if (currentCalendar.getTime().before(calendar.getTime())) {
+    if (birthday.isAfter(currentDay)) {
       return "";
     }
-    for (int i = 0; i
-        <= Integer.parseInt(new SimpleDateFormat("yyyy").format(currentCalendar.getTime())) - year;
-        i++) {
+    while (!birthday.isAfter(currentDay)) {
       builder
           .append(i)
           .append(" - ")
-          .append(new SimpleDateFormat("dd.MM.yyyy").format(calendar.getTime())).append(" - ")
-          .append(new SimpleDateFormat("EEE", Locale.US).format(calendar.getTime()))
+          .append(birthday.format(DateTimeFormatter.ofPattern("dd.MM.yyyy"))).append(" - ")
+          .append(birthday.format(DateTimeFormatter.ofPattern("EEE", Locale.US)))
           .append(System.lineSeparator());
-      calendar.add(Calendar.YEAR, 1);
-      if (currentCalendar.getTime().before(calendar.getTime())) {
-        break;
-      }
+      birthday = birthday.plusYears(1);
+      i++;
     }
     return String.valueOf(builder);
   }
