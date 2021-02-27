@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="SearchCoolNumbersTest" time="0.002" tests="8" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\t-fre\Desktop\Skillbox\java_basics\05_ArraysAndCollections\homework_5.5\CoolNumber\target\test-classes;C:\Users\t-fre\Desktop\Skillbox\java_basics\05_ArraysAndCollections\homework_5.5\CoolNumber\target\classes;C:\Users\t-fre\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.3.2\junit-jupiter-api-5.3.2.jar;C:\Users\t-fre\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\t-fre\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\t-fre\.m2\repository\org\junit\platform\junit-platform-commons\1.3.2\junit-platform-commons-1.3.2.jar;C:\Users\t-fre\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.3.2\junit-jupiter-engine-5.3.2.jar;C:\Users\t-fre\.m2\repository\org\junit\platform\junit-platform-engine\1.3.2\junit-platform-engine-1.3.2.jar;C:\Users\t-fre\.m2\repository\com\puppycrawl\tools\checkstyle\8.34\checkstyle-8.34.jar;C:\Users\t-fre\.m2\repository\info\picocli\picocli\4.3.2\picocli-4.3.2.jar;C:\Users\t-fre\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\t-fre\.m2\repository\org\antlr\antlr4-runtime\4.8-1\antlr4-runtime-4.8-1.jar;C:\Users\t-fre\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\t-fre\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\t-fre\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\t-fre\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\t-fre\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\t-fre\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\t-fre\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\t-fre\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\t-fre\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\t-fre\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\t-fre\.m2\repository\net\sf\saxon\Saxon-HE\9.9.1-7\Saxon-HE-9.9.1-7.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\t-fre\AppData\Local\Temp\surefire16248538952544989070\surefirebooter1850481157398060428.jar C:\Users\t-fre\AppData\Local\Temp\surefire16248538952544989070 2021-02-27T17-22-56_680-jvmRun1 surefire15119799416727548134tmp surefire_07129362699319442282tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\t-fre\Desktop\Skillbox\java_basics\05_ArraysAndCollections\homework_5.5\CoolNumber\target\test-classes;C:\Users\t-fre\Desktop\Skillbox\java_basics\05_ArraysAndCollections\homework_5.5\CoolNumber\target\classes;C:\Users\t-fre\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.3.2\junit-jupiter-api-5.3.2.jar;C:\Users\t-fre\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\t-fre\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\t-fre\.m2\repository\org\junit\platform\junit-platform-commons\1.3.2\junit-platform-commons-1.3.2.jar;C:\Users\t-fre\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.3.2\junit-jupiter-engine-5.3.2.jar;C:\Users\t-fre\.m2\repository\org\junit\platform\junit-platform-engine\1.3.2\junit-platform-engine-1.3.2.jar;C:\Users\t-fre\.m2\repository\com\puppycrawl\tools\checkstyle\8.34\checkstyle-8.34.jar;C:\Users\t-fre\.m2\repository\info\picocli\picocli\4.3.2\picocli-4.3.2.jar;C:\Users\t-fre\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\t-fre\.m2\repository\org\antlr\antlr4-runtime\4.8-1\antlr4-runtime-4.8-1.jar;C:\Users\t-fre\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\t-fre\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\t-fre\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\t-fre\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\t-fre\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\t-fre\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\t-fre\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\t-fre\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\t-fre\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\t-fre\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\t-fre\.m2\repository\net\sf\saxon\Saxon-HE\9.9.1-7\Saxon-HE-9.9.1-7.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\t-fre"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\t-fre\Desktop\Skillbox\java_basics\05_ArraysAndCollections\homework_5.5\CoolNumber"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\t-fre\AppData\Local\Temp\surefire16248538952544989070\surefirebooter1850481157398060428.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="user.name" value="AlexArt"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\t-fre\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\t-fre\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2020.3.2"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="user.dir" value="C:\Users\t-fre\Desktop\Skillbox\java_basics\05_ArraysAndCollections\homework_5.5\CoolNumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Windows\System32\OpenSSH\;C:\Users\t-fre\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="treeSetSearchFound" classname="SearchCoolNumbersTest" time="0">
+    <failure message="Номер есть в списке, но не найден методом поиска по TreeSet ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Номер есть в списке, но не найден методом поиска по TreeSet ==> expected: <true> but was: <false>
+	at SearchCoolNumbersTest.treeSetSearchFound(SearchCoolNumbersTest.java:91)
+]]></failure>
+  </testcase>
+  <testcase name="binarySearchNotFound" classname="SearchCoolNumbersTest" time="0"/>
+  <testcase name="bruteForceSearchFound" classname="SearchCoolNumbersTest" time="0">
+    <failure message="Номер есть в списке, но не найден методом прямого перебора ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Номер есть в списке, но не найден методом прямого перебора ==> expected: <true> but was: <false>
+	at SearchCoolNumbersTest.bruteForceSearchFound(SearchCoolNumbersTest.java:36)
+]]></failure>
+  </testcase>
+  <testcase name="hashSetSearchNotFound" classname="SearchCoolNumbersTest" time="0"/>
+  <testcase name="binarySearchFound" classname="SearchCoolNumbersTest" time="0">
+    <failure message="Номер есть в списке, но не найден методом бинарного поиска ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Номер есть в списке, но не найден методом бинарного поиска ==> expected: <true> but was: <false>
+	at SearchCoolNumbersTest.binarySearchFound(SearchCoolNumbersTest.java:55)
+]]></failure>
+  </testcase>
+  <testcase name="bruteForceSearchNotFound" classname="SearchCoolNumbersTest" time="0"/>
+  <testcase name="treeSetSearchNotFound" classname="SearchCoolNumbersTest" time="0"/>
+  <testcase name="hashSetSearchFound" classname="SearchCoolNumbersTest" time="0">
+    <failure message="Номер есть в списке, но не найден методом поиска по HashSet ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Номер есть в списке, но не найден методом поиска по HashSet ==> expected: <true> but was: <false>
+	at SearchCoolNumbersTest.hashSetSearchFound(SearchCoolNumbersTest.java:74)
+]]></failure>
+  </testcase>
+</testsuite>

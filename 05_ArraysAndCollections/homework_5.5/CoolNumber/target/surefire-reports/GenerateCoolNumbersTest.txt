@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: GenerateCoolNumbersTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.03 s <<< FAILURE! - in GenerateCoolNumbersTest
+coolNumbersFormatTest  Time elapsed: 0.015 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at GenerateCoolNumbersTest.coolNumbersFormatTest(GenerateCoolNumbersTest.java:39)
+
+coolNumbersSizeTest  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Номеров должно быть больше 2 млн штук ==> expected: <true> but was: <false>
+	at GenerateCoolNumbersTest.coolNumbersSizeTest(GenerateCoolNumbersTest.java:28)
+
