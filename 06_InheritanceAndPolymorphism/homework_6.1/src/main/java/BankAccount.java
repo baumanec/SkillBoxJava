@@ -1,13 +1,13 @@
 public class BankAccount {
 
-  double account = 0.0;
-  boolean isDone;
+  protected double account = 0.0;
+  protected boolean isDone;
 
-  public double getAmount() {
+  double getAmount() {
     return account;
   }
 
-  public void put(double amountToPut) {
+  void put(double amountToPut) {
     if (!(amountToPut <= 0)) {
       account += amountToPut;
       isDone = true;
@@ -16,7 +16,7 @@ public class BankAccount {
     }
   }
 
-  public void take(double amountToTake) {
+  void take(double amountToTake) {
     if (!(amountToTake <= 0) && (amountToTake < account)) {
       account -= amountToTake;
       isDone = true;

@@ -2,11 +2,10 @@ import java.time.LocalDate;
 
 public class DepositAccount extends BankAccount {
 
-  LocalDate lastIncome = LocalDate.now();
+  private LocalDate lastIncome = LocalDate.now();
 
-  public void take(double amountToTake) {
-    LocalDate lastIncome = LocalDate.now();
-    this.lastIncome = lastIncome;
+  void take(double amountToTake) {
+    lastIncome = LocalDate.now();
     if (!(amountToTake <= 0) && (amountToTake < account)) {
       if (LocalDate.now().isAfter(lastIncome.minusMonths(1))) {
         this.account -= amountToTake;
@@ -17,9 +16,9 @@ public class DepositAccount extends BankAccount {
     }
   }
 
-  public void put(double amountToPut) {
+  void put(double amountToPut) {
     if (!(amountToPut <= 0)) {
-      this.lastIncome = LocalDate.now();
+      lastIncome = LocalDate.now();
       account += amountToPut;
       this.isDone = true;
     } else {
