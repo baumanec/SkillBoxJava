@@ -1,16 +1,30 @@
 public abstract class Client {
 
+    double account = 0.0;
+    boolean isDone;
+
     public double getAmount() {
-        //TODO: реализуйте метод и удалите todo
-        return 0;
+        return this.account;
     }
 
-    public void put(double amountToPut) {
-        //TODO: реализуйте метод и удалите todo
+    void put(double amountToPut) {
+        if (!(amountToPut <= 0)) {
+            this.account += amountToPut;
+            this.isDone = true;
+        } else {
+            System.out.println("Введите сумму");
+        }
     }
 
-    public void take(double amountToTake) {
-        //TODO: реализуйте метод и удалите todo
+    void take(double amountToTake) {
+        if (!(amountToTake <= 0) && (amountToTake < this.account)) {
+            this.account -= amountToTake;
+            this.isDone = true;
+        } else {
+            System.out.println("Введите сумму");
+        }
     }
+
+    abstract void getInformation();
 
 }
