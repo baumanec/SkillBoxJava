@@ -14,13 +14,13 @@ public class Main {
     company.setIncome(10000001);
     System.out.println("Доход компании: " + company.getIncome());
 
-    for(int i = 0; i < 180; i++){
-      listForHire.add(new Operator());
-      if (i < 10){
-        company.hire(new TopManager());
+    for (int i = 0; i < 180; i++) {
+      listForHire.add(new Operator(company));
+      if (i < 10) {
+        company.hire(new TopManager(company));
       }
-      if (i < 80){
-        company.hire(new Manager());
+      if (i < 80) {
+        company.hire(new Manager(company));
       }
     }
 
@@ -35,9 +35,10 @@ public class Main {
     System.out.println("Зарплаты сотрудников: " + salary + System.lineSeparator());
 
     System.out.println("Список высоких зарплат: " + listOfTopSalaries(15) + System.lineSeparator());
-    System.out.println("Список низких зарплат: " + listOfLowestSalaries(30) + System.lineSeparator());
+    System.out
+        .println("Список низких зарплат: " + listOfLowestSalaries(30) + System.lineSeparator());
 
-    company.fire(company.getSize()/2);
+    company.fire(company.getSize() / 2);
 
     System.out.println("Количество сотрудников: " + company.getSize() + System.lineSeparator());
     System.out.println("Список сотрудников: " + company.employers + System.lineSeparator());
@@ -47,18 +48,19 @@ public class Main {
     lowestSalary.clear();
 
     System.out.println("Список высоких зарплат: " + listOfTopSalaries(15) + System.lineSeparator());
-    System.out.println("Список низких зарплат: " + listOfLowestSalaries(30) + System.lineSeparator());
+    System.out
+        .println("Список низких зарплат: " + listOfLowestSalaries(30) + System.lineSeparator());
   }
 
-  static List<Double> listOfTopSalaries(int count){
-    for (Employee staff : company.getTopSalaryStaff(count)){
+  static List<Double> listOfTopSalaries(int count) {
+    for (Employee staff : company.getTopSalaryStaff(count)) {
       topSalary.add(staff.getMonthSalary());
     }
     return topSalary;
   }
 
-  static List<Double> listOfLowestSalaries(int count){
-    for (Employee staff : company.getLowestSalaryStaff(count)){
+  static List<Double> listOfLowestSalaries(int count) {
+    for (Employee staff : company.getLowestSalaryStaff(count)) {
       lowestSalary.add(staff.getMonthSalary());
     }
     return lowestSalary;
