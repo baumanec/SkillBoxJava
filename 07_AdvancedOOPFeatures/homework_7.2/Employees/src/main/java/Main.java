@@ -1,3 +1,4 @@
+import java.text.SimpleDateFormat;
 import java.util.Comparator;
 import java.util.List;
 
@@ -12,8 +13,10 @@ public class Main {
   }
 
   public static Employee findEmployeeWithHighestSalary(List<Employee> staff, int year) {
+    SimpleDateFormat yearFormat = new SimpleDateFormat("yyyy");
+
     return staff.stream()
-        .filter(e -> e.getWorkStart().getYear() == year - 1900)
+        .filter(e -> Integer.parseInt(yearFormat.format(e.getWorkStart())) == year)
         .max(Comparator.comparing(Employee::getSalary)).get();
   }
 }
