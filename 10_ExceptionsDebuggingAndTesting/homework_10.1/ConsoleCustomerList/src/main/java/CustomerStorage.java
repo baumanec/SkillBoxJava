@@ -19,13 +19,13 @@ public class CustomerStorage {
         Pattern patternForPhone = Pattern.compile("[^+\\d]");
 
         String[] components = data.split("\\s+");
-        Matcher matcherInEmail = patternForEmail.matcher(components[INDEX_EMAIL]);
-        Matcher matcherInPhone = patternForPhone.matcher(components[INDEX_PHONE]);
         if (components.length != 4){
             throw new IllegalArgumentException("Wrong format. Correct format: \n" +
                 "add Василий Петров " +
                 "vasily.petrov@gmail.com +79215637722");
         }
+        Matcher matcherInEmail = patternForEmail.matcher(components[INDEX_EMAIL]);
+        Matcher matcherInPhone = patternForPhone.matcher(components[INDEX_PHONE]);
         if (matcherInEmail.find() | !components[INDEX_EMAIL].contains(".") | !components[INDEX_EMAIL].contains("@")){
             throw new IllegalArgumentException("Wrong email format. Correct format: \n" +
                 "vasily.petrov@gmail.com");
