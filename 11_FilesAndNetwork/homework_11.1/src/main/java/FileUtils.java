@@ -1,29 +1,17 @@
 import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class FileUtils {
 
-    public static long calculateFolderSize(String path) {
-        long size = 0L;
-        File folder = new File(path);
-        File[] files = folder.listFiles();
-        assert files != null;
-        for (File file : files) {
-            size += calculateFileSize(file);
-        }
-        return size;
-    }
-
-    private static long calculateFileSize(File file) {
-        long fileSize = 0L;
-        if (file.isDirectory()) {
-            File[] newDirectory = file.listFiles();
-            assert newDirectory != null;
-            for (File newFile : newDirectory) {
-                fileSize += calculateFileSize(newFile);
-            }
-        } else {
-            fileSize = file.length();
-        }
-        return fileSize;
+    public static long calculateFolderSize(String path) throws IOException {
+        Path folder = Paths.get(path);
+        return Files.walk(folder)
+            .map(Path::toFile)
+            .filter(File::isFile)
+            .mapToLong(File::length)
+            .sum();
     }
 }

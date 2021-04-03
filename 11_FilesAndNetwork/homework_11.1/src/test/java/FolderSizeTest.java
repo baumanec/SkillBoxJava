@@ -32,7 +32,7 @@ public class FolderSizeTest {
 
     @Test
     @DisplayName("Подсчет размера всех файлов в директории без поддиректорий")
-    void testFilesSizeInPlainDirectory()  {
+    void testFilesSizeInPlainDirectory() throws IOException {
         List<Path> files = fillDirectory(tempDirectory);
         writeContent(files);
 
