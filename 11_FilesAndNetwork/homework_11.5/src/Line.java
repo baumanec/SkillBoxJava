@@ -1,45 +1,31 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Line{
-  private String number;
-  private String name;
-  private List<Station> stations;
+public class Line {
+    private final String number;
+    private final String name;
+    private final List<Station> stations;
 
-  public Line(String number, String name)
-  {
-    this.number = number;
-    this.name = name;
-    stations = new ArrayList<>();
-  }
+    public Line(String number, String name) {
+        this.number = number;
+        this.name = name;
+        stations = new ArrayList<>();
+    }
 
-  public String getNumber()
-  {
-    return number;
-  }
+    public String getNumber() {
+        return number;
+    }
 
-  public void setName(String name){
-    this.name = name;
-  }
+    public String getName() {
+        return name;
+    }
 
-  public void setNumber(String number){
-    this.number = number;
-  }
+    public void addStation(Station station) {
+        stations.add(station);
+    }
 
-
-  public String getName()
-  {
-    return name;
-  }
-
-  public void addStation(Station station)
-  {
-    stations.add(station);
-  }
-
-  public List<Station> getStations()
-  {
-    return stations;
-  }
+    public List<Station> getStations() {
+        return stations;
+    }
 
 }
