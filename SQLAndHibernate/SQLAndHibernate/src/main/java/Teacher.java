@@ -2,11 +2,9 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.Date;
-
 @Entity
-@Table(name = "Students")
-public class Student {
+@Table(name = "Teachers")
+public class Teacher {
 
     @Getter
     @Setter
@@ -20,11 +18,10 @@ public class Student {
 
     @Getter
     @Setter
-    private int age;
+    private int salary;
 
     @Getter
     @Setter
-    @Column(name = "registration_date")
-    private Date registrationDate;
+    private int age;
 
 }
