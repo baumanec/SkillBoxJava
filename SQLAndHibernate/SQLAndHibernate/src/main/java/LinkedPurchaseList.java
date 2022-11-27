@@ -4,25 +4,26 @@ import lombok.Setter;
 
 import java.util.Date;
 
+
 @Entity
-@Table(name = "PurchaseList")
-public class PurchaseList {
+@Table(name = "LinkedPurchaseList")
+public class LinkedPurchaseList {
 
+    @Getter
+    @Setter
     @Id
-    @EmbeddedId
-    @Getter
-    @Setter
-    private PurchaseListPK id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
 
     @Getter
     @Setter
-    @Column(name = "student_name", insertable = false, updatable = false)
-    private String studentName;
+    @Column(name = "student_id")
+    private Integer studentId;
 
     @Getter
     @Setter
-    @Column(name = "course_name", insertable = false, updatable = false)
-    private String courseName;
+    @Column(name = "course_id")
+    private Integer courseId;
 
     @Getter
     @Setter

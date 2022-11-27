@@ -8,11 +8,10 @@ import java.io.Serializable;
 @Data
 public class Key implements Serializable {
 
-
     @Column(name = "student_id")
-    private int studentsId;
+    private Integer studentsId;
 
     @Column(name = "course_id")
-    private int courseId;
+    private Integer courseId;
 
 }

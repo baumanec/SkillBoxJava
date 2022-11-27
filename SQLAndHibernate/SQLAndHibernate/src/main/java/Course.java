@@ -5,7 +5,7 @@ import lombok.Setter;
 import java.util.List;
 
 @Entity
-@Table(name = "Courses")
+@Table(name = "courses")
 public class Course {
 
     @Getter
@@ -34,13 +34,13 @@ public class Course {
 
     @Getter
     @Setter
-    @ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private Teacher teacher;
 
     @Getter
     @Setter
     @Column(name = "students_count")
-    private int studentsCount;
+    private Integer studentsCount;
 
     @Getter
     @Setter
