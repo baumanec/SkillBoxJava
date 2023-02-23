@@ -1,13 +1,15 @@
+import java.util.concurrent.atomic.AtomicLong;
+
 public class Account {
 
-    private long money;
+    private AtomicLong money = new AtomicLong();
     private String accNumber;
 
-    public long getMoney() {
+    public AtomicLong getMoney() {
         return money;
     }
 
-    public void setMoney(long money) {
+    public void setMoney(AtomicLong money) {
         this.money = money;
     }
 
