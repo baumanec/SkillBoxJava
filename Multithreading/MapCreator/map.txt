@@ -1,0 +1,518 @@
+https://lenta.ru/archive
+
+https://lenta.ru/rss
+
+https://lenta.ru/specprojects
+https://lenta.ru/specprojects/native
+	https://lenta.ru/specprojects/native/2
+https://lenta.ru/specprojects/noncommercial
+	https://lenta.ru/specprojects/noncommercial/2
+https://lenta.ru/specprojects/2
+https://lenta.ru/specprojects/editor_choice
+	https://lenta.ru/specprojects/editor_choice/2
+https://lenta.ru/specprojects/commercial
+
+https://lenta.ru/info
+https://lenta.ru/info/posts/sales
+https://lenta.ru/info/posts/terms_of_use
+https://lenta.ru/info/posts/contacts
+https://lenta.ru/info/posts/privacy_policy
+
+https://lenta.ru/rubrics/world
+	https://lenta.ru/rubrics/world/society
+		https://lenta.ru/rubrics/world/society/2
+	https://lenta.ru/rubrics/world/crime
+		https://lenta.ru/rubrics/world/crime/2
+	https://lenta.ru/rubrics/world/politic
+		https://lenta.ru/rubrics/world/politic/2
+	https://lenta.ru/rubrics/world/conflict
+		https://lenta.ru/rubrics/world/conflict/2
+	https://lenta.ru/rubrics/world/accident
+		https://lenta.ru/rubrics/world/accident/2
+
+https://lenta.ru/rubrics/life
+	https://lenta.ru/rubrics/life/accident
+		https://lenta.ru/rubrics/life/accident/2
+	https://lenta.ru/rubrics/life/persons
+		https://lenta.ru/rubrics/life/persons/2
+	https://lenta.ru/rubrics/life/lucky
+		https://lenta.ru/rubrics/life/lucky/2
+	https://lenta.ru/rubrics/life/anomalies
+		https://lenta.ru/rubrics/life/anomalies/2
+	https://lenta.ru/rubrics/life/people
+		https://lenta.ru/rubrics/life/people/2
+	https://lenta.ru/rubrics/life/animals
+		https://lenta.ru/rubrics/life/animals/2
+	https://lenta.ru/rubrics/life/food
+		https://lenta.ru/rubrics/life/food/2
+
+https://lenta.ru/rubrics/economics
+	https://lenta.ru/rubrics/economics/investments
+		https://lenta.ru/rubrics/economics/investments/2
+	https://lenta.ru/rubrics/economics/social
+		https://lenta.ru/rubrics/economics/social/2
+	https://lenta.ru/rubrics/economics/finance
+		https://lenta.ru/rubrics/economics/finance/2
+	https://lenta.ru/rubrics/economics/crypto
+		https://lenta.ru/rubrics/economics/crypto/2
+	https://lenta.ru/rubrics/economics/business_climate
+		https://lenta.ru/rubrics/economics/business_climate/2
+	https://lenta.ru/rubrics/economics/economy
+		https://lenta.ru/rubrics/economics/economy/2
+	https://lenta.ru/rubrics/economics/markets
+		https://lenta.ru/rubrics/economics/markets/2
+	https://lenta.ru/rubrics/economics/companies
+		https://lenta.ru/rubrics/economics/companies/2
+
+https://lenta.ru/rubrics/travel
+	https://lenta.ru/rubrics/travel/opinion
+		https://lenta.ru/rubrics/travel/opinion/2
+	https://lenta.ru/rubrics/travel/rus
+		https://lenta.ru/rubrics/travel/rus/2
+	https://lenta.ru/rubrics/travel/events
+		https://lenta.ru/rubrics/travel/events/2
+	https://lenta.ru/rubrics/travel/accident
+		https://lenta.ru/rubrics/travel/accident/2
+	https://lenta.ru/rubrics/travel/world
+		https://lenta.ru/rubrics/travel/world/2
+
+https://lenta.ru/rubrics/sport
+	https://lenta.ru/rubrics/sport/olympiad
+		https://lenta.ru/rubrics/sport/olympiad/2
+	https://lenta.ru/rubrics/sport/other
+		https://lenta.ru/rubrics/sport/other/2
+	https://lenta.ru/rubrics/sport/auto
+		https://lenta.ru/rubrics/sport/auto/2
+	https://lenta.ru/rubrics/sport/hockey
+		https://lenta.ru/rubrics/sport/hockey/2
+	https://lenta.ru/rubrics/sport/football
+		https://lenta.ru/rubrics/sport/football/2
+	https://lenta.ru/rubrics/sport/fitness
+		https://lenta.ru/rubrics/sport/fitness/2
+	https://lenta.ru/rubrics/sport/boxing
+		https://lenta.ru/rubrics/sport/boxing/2
+	https://lenta.ru/rubrics/sport/winter
+		https://lenta.ru/rubrics/sport/winter/2
+
+https://lenta.ru/rubrics/wellness
+	https://lenta.ru/rubrics/wellness/selfcare
+		https://lenta.ru/rubrics/wellness/selfcare/2
+	https://lenta.ru/rubrics/wellness/dietology
+		https://lenta.ru/rubrics/wellness/dietology/2
+	https://lenta.ru/rubrics/wellness/interior_ideas
+		https://lenta.ru/rubrics/wellness/interior_ideas/2
+	https://lenta.ru/rubrics/wellness/mental_health
+		https://lenta.ru/rubrics/wellness/mental_health/2
+	https://lenta.ru/rubrics/wellness/relationships
+		https://lenta.ru/rubrics/wellness/relationships/2
+
+https://lenta.ru/rubrics/forces
+	https://lenta.ru/rubrics/forces/violation
+		https://lenta.ru/rubrics/forces/violation/2
+	https://lenta.ru/rubrics/forces/investigations
+		https://lenta.ru/rubrics/forces/investigations/2
+	https://lenta.ru/rubrics/forces/crimerussia
+		https://lenta.ru/rubrics/forces/crimerussia/2
+	https://lenta.ru/rubrics/forces/police
+		https://lenta.ru/rubrics/forces/police/2
+
+https://lenta.ru/rubrics/russia
+	https://lenta.ru/rubrics/russia/moscow
+		https://lenta.ru/rubrics/russia/moscow/2
+	https://lenta.ru/rubrics/russia/regions
+		https://lenta.ru/rubrics/russia/regions/2
+	https://lenta.ru/rubrics/russia/accident
+		https://lenta.ru/rubrics/russia/accident/2
+	https://lenta.ru/rubrics/russia/politic
+		https://lenta.ru/rubrics/russia/politic/2
+	https://lenta.ru/rubrics/russia/nornik
+	https://lenta.ru/rubrics/russia/mycountry
+	https://lenta.ru/rubrics/russia/society
+		https://lenta.ru/rubrics/russia/society/2
+
+https://lenta.ru/parts/video
+	https://lenta.ru/parts/video/2
+
+https://lenta.ru/rubrics/culture
+	https://lenta.ru/rubrics/culture/theatre
+		https://lenta.ru/rubrics/culture/theatre/2
+	https://lenta.ru/rubrics/culture/books
+		https://lenta.ru/rubrics/culture/books/2
+	https://lenta.ru/rubrics/culture/music
+		https://lenta.ru/rubrics/culture/music/2
+	https://lenta.ru/rubrics/culture/photographic
+		https://lenta.ru/rubrics/culture/photographic/2
+	https://lenta.ru/rubrics/culture/art
+		https://lenta.ru/rubrics/culture/art/2
+	https://lenta.ru/rubrics/culture/series
+		https://lenta.ru/rubrics/culture/series/2
+	https://lenta.ru/rubrics/culture/kino
+		https://lenta.ru/rubrics/culture/kino/2
+
+https://lenta.ru/parts/pressreleases
+	https://lenta.ru/parts/pressreleases/2
+
+https://lenta.ru/rubrics/science
+	https://lenta.ru/rubrics/science/cosmos
+		https://lenta.ru/rubrics/science/cosmos/2
+	https://lenta.ru/rubrics/science/science
+		https://lenta.ru/rubrics/science/science/2
+	https://lenta.ru/rubrics/science/inrussia
+		https://lenta.ru/rubrics/science/inrussia/2
+	https://lenta.ru/rubrics/science/gadget
+		https://lenta.ru/rubrics/science/gadget/2
+	https://lenta.ru/rubrics/science/soft
+		https://lenta.ru/rubrics/science/soft/2
+	https://lenta.ru/rubrics/science/digital
+		https://lenta.ru/rubrics/science/digital/2
+	https://lenta.ru/rubrics/science/history
+		https://lenta.ru/rubrics/science/history/2
+	https://lenta.ru/rubrics/science/mil
+		https://lenta.ru/rubrics/science/mil/2
+	https://lenta.ru/rubrics/science/natural
+		https://lenta.ru/rubrics/science/natural/2
+	https://lenta.ru/rubrics/science/games
+		https://lenta.ru/rubrics/science/games/2
+	https://lenta.ru/rubrics/science/future
+		https://lenta.ru/rubrics/science/future/2
+
+https://lenta.ru/parts/news
+	https://lenta.ru/parts/news/2
+
+https://lenta.ru/parts/text
+	https://lenta.ru/parts/text/2
+
+https://lenta.ru/rubrics/ussr
+	https://lenta.ru/rubrics/ussr/belarus
+		https://lenta.ru/rubrics/ussr/belarus/2
+	https://lenta.ru/rubrics/ussr/kavkaz
+		https://lenta.ru/rubrics/ussr/kavkaz/2
+	https://lenta.ru/rubrics/ussr/baltics
+		https://lenta.ru/rubrics/ussr/baltics/2
+	https://lenta.ru/rubrics/ussr/middle_asia
+		https://lenta.ru/rubrics/ussr/middle_asia/2
+	https://lenta.ru/rubrics/ussr/ukraine
+		https://lenta.ru/rubrics/ussr/ukraine/2
+	https://lenta.ru/rubrics/ussr/moldova
+		https://lenta.ru/rubrics/ussr/moldova/2
+
+https://lenta.ru/parts/photo
+	https://lenta.ru/parts/photo/2
+
+https://lenta.ru/rubrics/media
+	https://lenta.ru/rubrics/media/soc_network
+		https://lenta.ru/rubrics/media/soc_network/2
+	https://lenta.ru/rubrics/media/memes
+		https://lenta.ru/rubrics/media/memes/2
+	https://lenta.ru/rubrics/media/factchecking
+		https://lenta.ru/rubrics/media/factchecking/2
+	https://lenta.ru/rubrics/media/tv
+		https://lenta.ru/rubrics/media/tv/2
+	https://lenta.ru/rubrics/media/internet
+		https://lenta.ru/rubrics/media/internet/2
+	https://lenta.ru/rubrics/media/netvert
+		https://lenta.ru/rubrics/media/netvert/2
+	https://lenta.ru/rubrics/media/hackers
+		https://lenta.ru/rubrics/media/hackers/2
+	https://lenta.ru/rubrics/media/press
+		https://lenta.ru/rubrics/media/press/2
+
+https://lenta.ru/rubrics/style
+	https://lenta.ru/rubrics/style/personality
+		https://lenta.ru/rubrics/style/personality/2
+	https://lenta.ru/rubrics/style/phenomenon
+		https://lenta.ru/rubrics/style/phenomenon/2
+	https://lenta.ru/rubrics/style/exterior
+		https://lenta.ru/rubrics/style/exterior/2
+	https://lenta.ru/rubrics/style/look
+		https://lenta.ru/rubrics/style/look/2
+	https://lenta.ru/rubrics/style/luxury
+		https://lenta.ru/rubrics/style/luxury/2
+
+https://lenta.ru/rubrics/realty
+	https://lenta.ru/rubrics/realty/transport
+		https://lenta.ru/rubrics/realty/transport/2
+	https://lenta.ru/rubrics/realty/region
+		https://lenta.ru/rubrics/realty/region/2
+	https://lenta.ru/rubrics/realty/home
+		https://lenta.ru/rubrics/realty/home/2
+	https://lenta.ru/rubrics/realty/climate
+		https://lenta.ru/rubrics/realty/climate/2
+	https://lenta.ru/rubrics/realty/city
+		https://lenta.ru/rubrics/realty/city/2
+
+https://lenta.ru/my/dashboard
+
+https://lenta.ru/news/2023/07/01/france
+
+https://lenta.ru/articles/2023/06/22/ges_posledstviia
+
+https://lenta.ru/news/2023/07/01/isptank
+
+https://lenta.ru/news/2023/07/01/ubezhisha
+
+https://lenta.ru/news/2023/07/01/dugdavl
+
+https://lenta.ru/articles/2023/07/01/syria
+
+https://lenta.ru/news/2023/07/01/zhurova
+
+https://lenta.ru/articles/2023/06/29/tinder
+
+https://lenta.ru/articles/2023/06/23/fbi
+
+https://lenta.ru/news/2023/07/01/rogg
+
+https://lenta.ru/articles/2023/06/27/aral
+
+https://lenta.ru/news/2023/07/01/berdyansk
+
+https://lenta.ru/news/2023/07/01/probka
+
+https://lenta.ru/news/2023/07/01/medvoruzh
+
+https://lenta.ru/articles/2023/06/30/brezhneva
+
+https://lenta.ru/news/2023/07/01/mardan
+
+https://lenta.ru/news/2023/07/01/kuzb
+
+https://lenta.ru/articles/2023/06/28/saraevo
+
+https://lenta.ru/articles/2023/06/22/den_molodezh
+
+https://lenta.ru/news/2023/07/01/palestpod
+
+https://lenta.ru/extlink/2023/06/23/rossiiskie-akcii
+
+https://lenta.ru/extlink/2023/06/21/kurs-dollara
+
+https://lenta.ru/news/2023/07/01/medvedev
+
+https://lenta.ru/news/2023/07/01/sved_sved
+
+https://lenta.ru/news/2023/07/01/fedotov
+
+https://lenta.ru/news/2023/07/01/migrac
+
+https://lenta.ru/news/2023/07/01/samolett
+
+https://lenta.ru/extlink/2023/06/30/tank-300-goes-offroad
+
+https://lenta.ru/news/2023/07/01/platie
+
+https://lenta.ru/articles/2023/06/30/outline2023_guide
+
+https://lenta.ru/news/2023/07/01/police_police
+
+https://lenta.ru/extlink/2023/06/28/boevoi-limuzin-kgb
+
+https://lenta.ru/news/2023/07/01/musk_vs_zuck
+
+https://lenta.ru/news/2023/07/01/al_nasr
+
+https://lenta.ru/extlink/2023/06/27/mihail_boyarskiy
+
+https://lenta.ru/news/2023/07/01/plenn
+
+https://lenta.ru/news/2023/07/01/zator
+
+https://lenta.ru/news/2023/07/01/pamyatlvov
+
+https://lenta.ru/news/2023/07/01/deputat
+
+https://lenta.ru/news/2023/07/01/12_besbes
+
+https://lenta.ru/extlink/2023/06/27/aleksei-dyumin
+
+https://lenta.ru/news/2023/07/01/donbass
+
+https://lenta.ru/extlink/2023/06/29/story-of-toyota-2000gt
+
+https://lenta.ru/articles/2023/06/28/katastrofa
+
+https://lenta.ru/articles/2023/06/30/tinder_bye
+
+https://lenta.ru/extlink/2023/06/23/dachi_moskva
+
+https://lenta.ru/articles/2023/06/30/sber_compl
+
+https://lenta.ru/articles/2023/06/28/chvk
+
+https://lenta.ru/news/2023/07/01/doctor
+
+https://lenta.ru/news/2023/07/01/nayemniki
+
+https://lenta.ru/news/2023/07/01/mer
+
+https://lenta.ru/extlink/2023/06/21/kak-vybrat-arbuz
+
+https://lenta.ru/extlink/2023/06/26/nesportivnoe-povedenie
+
+https://lenta.ru/news/2023/07/01/kulebyaka
+
+https://lenta.ru/extlink/2023/06/21/severnye-potoki
+
+https://lenta.ru/news/2023/07/01/abhpodd
+
+https://lenta.ru/news/2023/07/01/bikeride
+
+https://lenta.ru/articles/2023/06/24/m4_don
+
+https://lenta.ru/news/2023/07/01/vvv
+
+https://lenta.ru/articles/2023/06/26/spy
+
+https://lenta.ru/news/2023/07/01/divers
+
+https://lenta.ru/articles/2023/06/30/mavr
+
+https://lenta.ru/news/2023/07/01/prokuror
+
+https://lenta.ru/news/2023/07/01/994_more
+
+https://lenta.ru/articles/2023/06/24/turkiye
+
+https://lenta.ru/news/2023/07/01/zap_zap_zap
+
+https://lenta.ru/news/2023/07/01/prokk
+
+https://lenta.ru/news/2023/07/01/risk
+
+https://lenta.ru/news/2023/07/01/hotwar_chinaus
+
+https://lenta.ru/news/2023/07/01/4
+
+https://lenta.ru/news/2023/07/01/elektrich
+
+https://lenta.ru/news/2023/07/01/manilov_manilov
+
+https://lenta.ru/articles/2023/07/01/armageddon25
+
+https://lenta.ru/news/2023/07/01/gladkov
+				https://lenta.ru/news/2023/07/01/gladkovchislo
+
+https://lenta.ru/news/2023/07/01/berns_zelenskiy
+
+https://lenta.ru/articles/2023/06/29/bestofhalf
+
+https://lenta.ru/extlink/2023/06/27/kak_proektiruyut_moskovskoe_metro
+
+https://lenta.ru/news/2023/07/01/tankers
+
+https://lenta.ru/news/2023/07/01/blr
+
+https://lenta.ru/news/2023/07/01/visit
+
+https://lenta.ru/extlink/2023/06/28/sergey_mazaev
+
+https://lenta.ru/news/2023/07/01/lnr
+
+https://lenta.ru/news/2023/07/01/kuba
+
+https://lenta.ru/news/2023/07/01/captured
+
+https://lenta.ru/news/2023/07/01/es
+
+https://lenta.ru/news/2023/07/01/eu
+
+https://lenta.ru/extlink/2023/06/26/olesya_jeleznyak
+
+https://lenta.ru/articles/2023/06/22/150jeans
+
+https://lenta.ru/news/2023/07/01/zelair
+
+https://lenta.ru/extlink/2023/06/23/ioga
+
+https://lenta.ru/news/2023/07/01/strel_ba
+
+https://lenta.ru/news/2023/07/01/nacii
+
+https://lenta.ru/extlink/2023/06/27/old-rare-utes
+
+https://lenta.ru/news/2023/07/01/fencers
+
+https://lenta.ru/news/2023/07/01/zelenski
+
+https://lenta.ru/news/2023/07/01/nikolaev_nikolaev
+
+https://lenta.ru/articles/2023/06/26/titanic
+
+https://lenta.ru/news/2023/07/01/upc
+
+https://lenta.ru/extlink/2023/06/27/gosperevorot
+
+https://lenta.ru/news/2023/07/01/yuzh
+
+https://lenta.ru/news/2023/07/01/aptechki
+
+https://lenta.ru/news/2023/07/01/pesnya
+
+https://lenta.ru/news/2023/06/30/changes
+
+https://lenta.ru/news/2023/07/01/medfrance
+
+https://lenta.ru/news/2023/07/01/sheremet
+
+https://lenta.ru/news/2023/07/01/bjania
+
+https://lenta.ru/news/2023/07/01/avto
+
+https://lenta.ru/news/2023/07/01/zebota
+
+https://lenta.ru/news/2023/07/01/sumi
+
+https://lenta.ru/news/2023/07/01/nuclear
+
+https://lenta.ru/news/2023/07/01/bidenxiscandal
+
+https://lenta.ru/extlink/2023/06/17/kinostudiya_gorkogo
+
+https://lenta.ru/news/2023/07/01/dzyuba
+
+https://lenta.ru/news/2023/07/01/snova_evro
+
+https://lenta.ru/news/2023/07/01/razz_rszo
+
+https://lenta.ru/articles/2023/06/29/glass
+
+https://lenta.ru/articles/2023/06/29/beer_propaganda
+
+https://lenta.ru/news/2023/07/01/grr
+
+https://lenta.ru/articles/2023/06/22/poplyl
+
+https://lenta.ru/articles/2023/06/22/counteroffensive
+
+https://lenta.ru/news/2023/07/01/proect
+
+https://lenta.ru/articles/2023/07/01/lukin
+
+https://lenta.ru/news/2023/07/01/glazunov
+
+https://lenta.ru/extlink/2023/06/23/gryaznaya-bomba
+
+https://lenta.ru/news/2023/07/01/explain
+
+https://lenta.ru/news/2023/07/01/lica_lica
+
+https://lenta.ru/extlink/2023/06/30/vypusknye_v_moskve
+
+https://lenta.ru/news/2023/07/01/karasin
+
+https://lenta.ru/extlink/2023/07/01/musk_zuck/?intlnk=true
+
+https://lenta.ru/extlink/2023/06/27/blk/?intlnk=true
+
+https://lenta.ru/extlink/2023/06/30/popo/?intlnk=true
+
+https://lenta.ru/extlink/2023/06/27/siloviki/?intlnk=true
+
+https://lenta.ru/extlink/2023/06/27/okhota/?intlnk=true
+
+https://lenta.ru/extlink/2023/06/26/putobrashenie/?intlnk=true
+
+https://lenta.ru/extlink/2023/06/30/chngs/?intlnk=true
+
+https://lenta.ru/extlink/2023/06/28/rezzz/?intlnk=true
+
