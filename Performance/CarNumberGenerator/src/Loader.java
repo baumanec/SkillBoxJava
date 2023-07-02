@@ -1,41 +1,24 @@
-import java.io.FileOutputStream;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ThreadPoolExecutor;
 
 public class Loader {
 
-    public static void main(String[] args) throws Exception {
+    private static final String FILE_PATH_FOR_THREAD1 = "res/numbers1.txt";
+    private static final String FILE_PATH_FOR_THREAD2 = "res/numbers2.txt";
+    private static final char[] LETTERS = {'У', 'К', 'Е', 'Н', 'Х', 'В', 'А', 'Р', 'О', 'С', 'М', 'Т'};
+
+    public static void main(String[] args) {
+
         long start = System.currentTimeMillis();
 
-        FileOutputStream writer = new FileOutputStream("res/numbers.txt");
-
-        char letters[] = {'У', 'К', 'Е', 'Н', 'Х', 'В', 'А', 'Р', 'О', 'С', 'М', 'Т'};
-        for (int number = 1; number < 1000; number++) {
-            int regionCode = 199;
-            for (char firstLetter : letters) {
-                for (char secondLetter : letters) {
-                    for (char thirdLetter : letters) {
-                        String carNumber = firstLetter + padNumber(number, 3) +
-                            secondLetter + thirdLetter + padNumber(regionCode, 2);
-                        writer.write(carNumber.getBytes());
-                        writer.write('\n');
-                    }
-                }
-            }
-        }
-
-        writer.flush();
-        writer.close();
-
-        System.out.println((System.currentTimeMillis() - start) + " ms");
+        CarNumberGenerator carNumberGenerator1 = new CarNumberGenerator(FILE_PATH_FOR_THREAD1, LETTERS, start);
+        CarNumberGenerator carNumberGenerator2 = new CarNumberGenerator(FILE_PATH_FOR_THREAD2, LETTERS, start);
+        ThreadPoolExecutor executor1 = (ThreadPoolExecutor) Executors.newFixedThreadPool(4);
+        ThreadPoolExecutor executor2 = (ThreadPoolExecutor) Executors.newFixedThreadPool(4);
+        executor1.submit(carNumberGenerator1::start);
+        executor2.submit(carNumberGenerator2::start);
+        executor1.close();
+        executor2.close();
     }
 
-    private static String padNumber(int number, int numberLength) {
-        String numberStr = Integer.toString(number);
-        int padSize = numberLength - numberStr.length();
-
-        for (int i = 0; i < padSize; i++) {
-            numberStr = '0' + numberStr;
-        }
-
-        return numberStr;
-    }
 }
